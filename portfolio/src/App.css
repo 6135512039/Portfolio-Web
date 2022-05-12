@@ -15,7 +15,7 @@
 .App {
   display: flex;
   width: 100vw;
-  min-width: 100vh;
+  min-height: 100vh;
 }
 
 nav {
@@ -54,18 +54,41 @@ nav ul li a {
 
 .profilepic {
   border-radius: 50%;
-  width: 400px;
+  width: 350px;
+  margin: 30px;
+}
+
+.picturelogo {
+  text-align: center;
+  width: 100px;
+  margin: auto;
+}
+
+.picturelogo2 {
+  width: 140px;
+  margin: auto;
+}
+
+.picturelogo3 {
+  width: 300px;
+  margin-top: auto;
+}
+
+.picturelogo4 {
+  width: 200px;
+  margin-top: auto;
 }
 
 .social {
-  margin-top: 92px;
+  position: absolute;
+  margin-top: 20px;
   display: flex;
   bottom: 60px;
 }
 
 .social i {
   padding-right: 30px;
-  font-size: 30px;
+  font-size: 25px;
   color: #9a9b9c;
 }
 
@@ -74,22 +97,16 @@ nav ul li a {
 }
 
 .typingeffect {
-  margin-top: 30px;
   font-size: var(--typing-font);
   margin-bottom: 30px;
 }
 
 .about {
-  padding: 94.5px;
   text-align: center;
 }
 
 .subtopic {
-  margin: 0px 10px 30px 10px !important;
-}
-
-.subtopic2 {
-  margin: 0px 10px 40px 10px !important;
+  margin: 10px 10px 30px 10px !important;
 }
 
 h1,h2,h3,h4 {
@@ -105,12 +122,35 @@ p {
   margin: 30px 0px 30px 0px;
   transition: .3s;
   border-radius: 10px;
-  padding: 95.5px;
+  padding: .5rem;
 }
 
 .widecard:hover {
   color: #fff;
   background: #333;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+.skills ul {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.skills2{
+  background-color: #adacac;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.skills ul li {
+  list-style: none;
+  margin: 30px;
+}
+
+.texturl {
+  color: #000;
+  text-decoration: none;
 }
 
