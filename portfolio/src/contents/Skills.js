@@ -37,7 +37,7 @@ class Skills extends Component {
                 </ul>
                 <br/><br/>
                 <h1 className="subtopic">My Project</h1>
-                <div className="skills2">
+                <div>
                 <a className="texturl" href="https://www.coe.phuket.psu.ac.th/projects/969/กล่องยา-SOS.html?fbclid=IwAR1HAB3meylH-Qpw-zH2vW08720Dfe9h7ZjUNa_DQ04oRhq2U1WtcIWegf0" target="_blank" rel="noopener noreferrer">
                 <Widecard title="Medicine Box SOS" where="Computer Engineer Project II's Prince of Songkla University" from="2020" to="2022" />
                 </a>
